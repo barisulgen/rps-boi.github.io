@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+    <header>
+        <h1> \o/&nbsp;&nbsp; Rock Paper Scissors &nbsp;&nbsp;\o/</h1>
+    </header>
+
+    <p id="scrmsg">- Scoreboard -</p>
+
+    <div class="score-board">
+        <div id="user-label" class="badge">user</div>
+        <div id="computer-label" class="badge">comp</div>
+        <span id="user-score">0</span>&nbsp; | &nbsp;<span id="computer-score">0</span>
+    </div>
+
+    <div class="result">
+        <p>Paper covers rock. You win!</p>
+    </div>
+
+    <div class="choices">
+        <div class="choice" id="r">
+            <div class="shading"></div>
+            <img src="images/rock.jpg" alt="">
+            <div class="overlay">
+                <div class="text">Rock</div>
+            </div>
+        </div>
+
+        <div class="choice" id="p">
+            <div class="shading"></div>
+            <img src="images/paper.jpg" alt="">
+            <div class="overlay">
+                <div class="text">Paper</div>
+            </div>
+        </div>
+
+        <div class="choice" id="s">
+            <div class="shading"></div>
+            <img src="images/scissors.jpg" alt="">
+            <div class="overlay">
+                <div class="text">Scissors</div>
+            </div>
+        </div>
+    </div>
+
+    <p id="action-message">Make your move...</p>
+    <script src="app.js" charset="utf-8"></script>
+
+</body>
+
+</html>
