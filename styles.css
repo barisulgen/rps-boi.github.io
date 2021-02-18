@@ -138,6 +138,7 @@ body {
     background: white;
     display: inline-block;
     padding: 0px;
+    transition: 0.3s;
 }
 
 .choice:hover {
@@ -155,4 +156,22 @@ body {
     font-weight: bold;
     font-size: 20px;
     margin-top: 40px;
+}
+
+.green-glow {
+    border: 4px solid #4dcc7d;
+    box-shadow: 0 0 10px #31b43a;
+    /*transition: 0.3s;*/
+}
+   
+.red-glow {
+    border: 4px solid #f81a1a;
+    box-shadow: 0 0 10px #720606;
+    /*transition: 0.3s;*/
+}
+
+.orange-glow {
+    border: 4px solid #979797;
+    box-shadow: 0 0 10px #5e5e5e;
+    /*transition: 0.3s;*/
 }
