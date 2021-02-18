@@ -1,7 +1,5 @@
 let userScore = 0;
 let computerScore = 0;
-
-
 const userScore_span = document.getElementById("user-score");
 const computerScore_span = document.getElementById("computer-score");
 const scoreBoard_div = document.querySelector(".scoreboard");
@@ -40,7 +38,7 @@ function lose(userChoice, computerChoice) {
     computerScore_span.innerHTML = computerScore;
     const smallUserWord = "user".fontsize(3).sub();
     const smallCompWord = "comp".fontsize(3).sub();
-    result_p.innerHTML = convertToWord(userChoice) + smallUserWord + " loses to " + convertToWord(computerChoice) + smallCompWord + ". You loose...";
+    result_p.innerHTML = convertToWord(userChoice) + smallUserWord + " loses to " + convertToWord(computerChoice) + smallCompWord + ". You lose...";
     const userChoice_div = document.getElementById(userChoice);
     userChoice_div.classList.add('red-glow');
     setTimeout(function () { userChoice_div.classList.remove('red-glow') }, 300);
@@ -89,6 +87,5 @@ function main() {
         game("s");
     })
 }
-
 
 main();
