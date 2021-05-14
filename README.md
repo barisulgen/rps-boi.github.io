@@ -1,5 +1,3 @@
 # GitHub PAGES TEST
 
-### GP TEST
-
-pages testi
+A very simple rock paper scissors game on github pages.
